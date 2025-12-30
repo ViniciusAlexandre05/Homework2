@@ -1,4 +1,4 @@
-source("2.R")
+source("Questao3/2.R")
 
 # (a) Média amostral 
 media_autoral <- mean(amostras_autoral)

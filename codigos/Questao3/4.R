@@ -1,5 +1,5 @@
-source("2.R")
-pdf("../graficos/grafico_questao_3.pdf", width = 12, height = 10)
+source("Questao3/2.R")
+pdf("../graficos/Questao3/grafico_questao_3.pdf", width = 12, height = 10)
 par(mfrow = c(2, 2))
 
 # (a) Um histograma das temperaturas simuladas da CPU (pode plotar os dois con

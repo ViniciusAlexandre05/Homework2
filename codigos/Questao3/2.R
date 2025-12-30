@@ -1,4 +1,4 @@
-source("1.R")
+source("Questao3/1.R")
 
 # 500 pares de numeros aleatórios nos retorna um total de 1000 amostras, utilizando
 # a função já implementada no Item 1:
