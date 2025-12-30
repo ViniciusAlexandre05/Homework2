@@ -52,7 +52,6 @@ Para executar os scripts deste projeto, siga as etapas abaixo:
 
 4. **Verifique os resultados:**
    - Os gráficos gerados serão salvos na pasta `graficos/`.
-   - Certifique-se de que os arquivos de dados necessários estão na pasta `dados/`.
 
 5. **Pacotes:**
    - Em nenhum momento foram utilizados pacotes. Todos os códigos foram feitos por meio de funções nativas do próprio _R_.
