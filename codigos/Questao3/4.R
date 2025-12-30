@@ -61,6 +61,6 @@ curve(dnorm(x, mean = 62, sd = 3.5),
       add = TRUE, 
       col = "red", 
       lwd = 2)
-legend("topright", legend = "Teórico", col = "blue", lwd = 2, lty = 2, bty = "n")
+legend("topright", legend = "Teórico", col = "red", lwd = 2, bty = "n")
 
 dev.off()

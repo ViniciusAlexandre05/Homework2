@@ -14,7 +14,7 @@ min_max_nativo <- range(amostras_nativo)
 
 # (d) Probabilidade teórica e empírica de P(T > 68):
 # Teórica: Fórmula matemática
-prob_teorica_d <- pnorm(68, mean = 62, sd = 3.5, lower.tail = FALSE)
+prob_teorica_d <- 1 - pnorm(68, mean = 62, sd = 3.5)
 
 # Empírica: Quantos valores no meu vetor são > 68?
 prob_empirica_d <- mean(amostras_autoral > 68) 
@@ -27,7 +27,7 @@ prob_teorica_e <- pnorm(65, 62, 3.5) - pnorm(60, 62, 3.5)
 prob_empirica_e <- mean(amostras_autoral > 60 & amostras_autoral < 65)
 
 # (f) Probabilidade teórica P (T > 75) e verificação de existência
-prob_teorica_f <- pnorm(75, 62, 3.5, lower.tail = FALSE)
+prob_teorica_f <- 1 - pnorm(75, 62, 3.5)
 
 # Algum conjunto contem valores acima de 75?
 existe_acima_75 <- any(amostras_autoral > 75)
